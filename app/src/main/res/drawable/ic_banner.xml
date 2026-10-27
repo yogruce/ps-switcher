@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+
+    <!-- Dark Blue PlayStation Gradient-style Background -->
+    <path
+        android:fillColor="#00246B"
+        android:pathData="M0,0h320v180h-320z" />
+
+    <path
+        android:fillColor="#003791"
+        android:pathData="M0,0 L220,0 L160,180 L0,180 Z" />
+
+    <!-- Accent Diagonal Stripe -->
+    <path
+        android:fillColor="#0050D5"
+        android:pathData="M210,0 L235,0 L175,180 L150,180 Z" />
+
+    <!-- Triangle -->
+    <path
+        android:strokeColor="#00E5B8"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M62,68 L82,104 L42,104 Z" />
+
+    <!-- Circle -->
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:pathData="M126,68 A18,18 0 1,1 126,104 A18,18 0 1,1 126,68 Z" />
+
+    <!-- Cross -->
+    <path
+        android:strokeColor="#6898F8"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M174,70 L208,104 M208,70 L174,104" />
+
+    <!-- Square -->
+    <path
+        android:strokeColor="#E078C8"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M240,70 L274,70 L274,104 L240,104 Z" />
+
+</vector>

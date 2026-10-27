@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep PlayStation Blue Background -->
+    <path
+        android:fillColor="#003791"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Subtle inner glow circle -->
+    <path
+        android:fillColor="#00439C"
+        android:pathData="M54,14A40,40 0 1,1 54,94A40,40 0 1,1 54,14Z" />
+
+    <!-- Stylized Controller / PS Symbols (Triangle, Circle, Cross, Square) -->
+    <!-- Triangle (Top) -->
+    <path
+        android:strokeColor="#00E5B8"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M54,24 L64,41 L44,41 Z" />
+
+    <!-- Circle (Right) -->
+    <path
+        android:strokeColor="#FF5252"
+        android:strokeWidth="3.5"
+        android:fillColor="#00000000"
+        android:pathData="M75,44 A9.5,9.5 0 1,1 75,63 A9.5,9.5 0 1,1 75,44 Z" />
+
+    <!-- Square (Left) -->
+    <path
+        android:strokeColor="#E078C8"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M24,45 L41,45 L41,62 L24,62 Z" />
+
+    <!-- Cross (Bottom) -->
+    <path
+        android:strokeColor="#6898F8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M45,67 L63,85 M63,67 L45,85" />
+</vector>

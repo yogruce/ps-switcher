@@ -1,0 +1,6 @@
+# Build intermediate files (keep final PlayStation-TV-Switcher.apk in repo for direct TV download)
+build/
+.gradle/
+.idea/
+*.iml
+local.properties
